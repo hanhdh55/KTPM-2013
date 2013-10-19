@@ -67,9 +67,8 @@ def test_generator(*a):
         self.assertEqual(input.main(*a), "aaa")
     return test
             
-#dau vao la cac gia tri dai dien cua moi lop
-#tra ve cac ca kiem thu
-def main1():
+
+if __name__ == '__main__':
     if (read() != False):
         # luu cac gia tri test case
         tb = read()
@@ -89,11 +88,6 @@ def main1():
         unittest.main()
     else:
         raise Exception ('wrong input')
-
-
-
-if __name__ == '__main__':
-    main1()
          
 
 
